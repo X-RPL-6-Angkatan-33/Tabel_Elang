@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: Poppins;
+}
+.judul {
+    text-align: center;
+    font-weight: 200;
+}
+.tabell {
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 0;
+    box-shadow: 0px 0px 20px #bacbd0;
+}
+.tabell table {
+    width: 100%;
+    table-layout: fixed;
+    font-size: larger;
+    border-collapse: collapse;
+}
+.tabell table td {
+    padding: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 15px;
+    width: auto;
+    word-wrap: break-word;
+    margin: 2px;
+    border-bottom: 1px solid #9ea5a7;
+}
+.nonjam td {
+    border-right: 2px solid #c4d0d3;
+}
+.jam {
+    background-color: #0e6176;
+    text-align: center;
+    color: white;
+}
+.jam td {
+    border-right: 2px solid #0d596c;
+}
+.jam p {
+    font-weight: 200;
+}
+
+.hari {
+    background-color: #066c63;
+    color: white;
+}
